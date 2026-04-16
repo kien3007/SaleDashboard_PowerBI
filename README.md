@@ -1,4 +1,4 @@
-# 📊 E-commerce Performance Analysis (Shopee & Lazada)
+# 📊 E-commerce Performance Analysis
 
 ## 🧩 1. Giới thiệu
 
