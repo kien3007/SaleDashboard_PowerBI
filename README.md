@@ -1,256 +1,165 @@
-# 📊 E-commerce Performance Analysis
+# E-Commerce Performance & Strategic Analysis Report
 
-## 🧩 1. Giới thiệu
+## 1. Executive Summary
 
-Báo cáo này tập trung phân tích hoạt động kinh doanh đa quốc gia trên hai nền tảng thương mại điện tử **Shopee** và **Lazada** trong giai đoạn từ **tháng 01/2022 đến tháng 04/2023**.
+This report provides a comprehensive analysis of multinational e-commerce operations across **Shopee** and **Lazada** platforms from **January 2022 to April 2023**.
 
-### 📍 Phạm vi dữ liệu
+### 1.1 Data Scope
+- **Region:** Asia & Middle East
+- **Industry Sector:** Fashion & Footwear
+- **Data Volume:**
+  - \> 200,000 processed orders
+  - \> 50 logistics partners
+  - Segmented by size, customer demographics, geographical location, and platform
 
-* Khu vực: Châu Á & Trung Đông
-* Ngành hàng: Thời trang & Giày dép
-* Quy mô dữ liệu:
-
-  * > 200.000 đơn hàng
-  * > 50 đơn vị vận chuyển
-  * Phân loại theo: size, nhóm khách hàng, quốc gia, nền tảng
-
-### 🎯 Mục tiêu phân tích
-
-* Xây dựng hệ thống KPI vận hành & kinh doanh
-* Xác định sản phẩm/danh mục hiệu quả cao
-* Tối ưu tồn kho & chuỗi cung ứng
-* Cải thiện trải nghiệm khách hàng
+### 1.2 Business Objectives
+- Establish a robust operational and commercial KPI framework.
+- Identify high-performing product categories to maximize profitability.
+- Optimize inventory management and supply chain efficiency.
+- Enhance the end-to-end customer experience.
 
 ---
 
-## 📌 2. Tổng quan hiệu suất
+## 2. Performance Overview
 
-### 🚀 2.1 Hiệu suất theo nền tảng
+### 2.1 Platform Performance
+| Platform | Revenue (VND) | Order Volume | Revenue Share |
+| -------- | ------------- | ------------ | ------------- |
+| Shopee   | ~144.5 Billion| 136,917      | ~64%          |
+| Lazada   | ~78.6 Billion | 65,720       | ~36%          |
 
-| Nền tảng | Doanh thu | Đơn hàng | Tỷ trọng |
-| -------- | --------- | -------- | -------- |
-| Shopee   | ~144,5 tỷ | 136.917  | ~64%     |
-| Lazada   | ~78,6 tỷ  | 65.720   | ~36%     |
+**Executive Insight:** Shopee serves as the primary driver for both volume and revenue. Lazada acts as a supplementary channel, though currently operating at a significantly lower efficiency level.
 
-👉 **Nhận định:**
+### 2.2 Key Markets
+| Country     | Revenue (VND)  | Strategic Assessment         |
+| ----------- | -------------- | ---------------------------- |
+| China       | ~13.25 Billion | Core Market                  |
+| Japan       | ~1.82 Billion  | High Growth Potential        |
+| South Korea | ~1.46 Billion  | Stable Market                |
+| India       | ~1.36 Billion  | Emerging/Growing             |
+| Malaysia    | ~468 Million   | Small Scale, Stable          |
 
-* Shopee là kênh chủ lực cả về volume lẫn revenue
-* Lazada đóng vai trò bổ trợ nhưng hiệu suất thấp hơn đáng kể
+**Executive Insight:** Revenue is heavily concentrated in 1-2 core markets, indicating a high dependency risk that requires geographical diversification.
 
----
+### 2.3 Order Fulfillment Status
+| Status    | Volume  | Proportion |
+| --------- | ------- | ---------- |
+| Completed | 165,578 | ~80%       |
+| Canceled  | 30,489  | ~15%       |
+| Others    | -       | ~5%        |
 
-### 🌏 2.2 Thị trường trọng điểm
+**Executive Insight:** The cancellation rate of 15% is at a critical level, directly impacting realized revenue and inflating operational costs.
 
-| Quốc gia    | Doanh thu  | Nhận định                |
-| ----------- | ---------- | ------------------------ |
-| China       | ~13,25 tỷ  | Thị trường lõi           |
-| Japan       | ~1,82 tỷ   | Tiềm năng cao            |
-| South Korea | ~1,46 tỷ   | Ổn định                  |
-| India       | ~1,36 tỷ   | Đang tăng trưởng         |
-| Malaysia    | ~468 triệu | Quy mô nhỏ nhưng ổn định |
+### 2.4 Longitudinal Trends
+- **FY 2022:** Demonstrated robust growth in H1, peaking in June 2022 (Revenue: ~24 Billion VND, Orders: ~23,520). A slight deceleration was observed in Q4.
+- **FY 2023:** Exhibited a clear downward trajectory. By April 2023, volume dropped to ~1,884 orders and revenue to ~2 Billion VND.
 
-👉 **Insight:** Doanh thu tập trung mạnh vào 1–2 thị trường chính → rủi ro phụ thuộc cao
+**Executive Insight:** Indicators point towards a systemic decline, potentially driven by macro demand contraction or internal operational inefficiencies.
 
----
+### 2.5 Average Order Value (AOV)
+- **Range:** 900,000 – 1,300,000 VND
+- **Peak:** ~1,380,000 VND (November 2022)
 
-### 📦 2.3 Tình trạng đơn hàng
-
-| Trạng thái | Số lượng | Tỷ trọng |
-| ---------- | -------- | -------- |
-| Completed  | 165.578  | ~80%     |
-| Canceled   | 30.489   | ~15%     |
-| Khác       | ~5%      | Nhỏ      |
-
-👉 **Insight:**
-
-* Tỷ lệ hủy đơn ở mức đáng báo động
-* Ảnh hưởng trực tiếp đến doanh thu thực và chi phí vận hành
-
----
-
-### 📈 2.4 Xu hướng theo thời gian
-
-#### Năm 2022
-
-* Tăng trưởng mạnh đầu năm → đạt đỉnh tháng 06/2022
-* Doanh thu: ~24 tỷ
-* Đơn hàng: ~23.520
-* Cuối năm: dấu hiệu giảm nhẹ
-
-#### Năm 2023
-
-* Xu hướng giảm rõ rệt
-* Tháng 04/2023:
-
-  * ~1.884 đơn
-  * ~2 tỷ doanh thu
-
-👉 **Insight:** Có dấu hiệu suy giảm hệ thống (cầu giảm hoặc vận hành kém)
+**Executive Insight:** AOV remains relatively stable. The current revenue contraction is primarily a volume-driven issue rather than a pricing strategy deficit.
 
 ---
 
-### 💳 2.5 Giá trị đơn hàng trung bình (AOV)
+## 3. In-Depth Analysis
 
-* Dao động: **900K – 1,3 triệu VNĐ**
-* Cao nhất: **~1,38 triệu (11/2022)**
+### 3.1 Profit Margin by Category
 
-👉 **Insight:**
+#### High-Margin Segment
+| Product Category    | Gross Profit Margin (GPM) |
+| ------------------- | ------------------------- |
+| T-Shirt             | ~76.67%                   |
+| Promotional T-Shirt | ~76.20%                   |
+| Women’s T-Shirt     | ~76.70%                   |
+| Mommy & Me Dress    | ~74.60%                   |
 
-* AOV ổn định → vấn đề nằm ở volume, không phải pricing
+**Executive Insight:** Basic apparel items exhibit a low cost structure and high scalability, serving as the organization's "cash cow".
 
----
+#### Profit Drivers (High Contribution)
+| Product Category | Revenue (VND) | Profit (VND) |
+| ---------------- | ------------- | ------------ |
+| Dress            | >575 Billion  | ~420 Billion |
+| Jacket & Blazer  | -             | ~3.4 Billion |
 
-## 🔍 3. Phân tích chuyên sâu
+**Executive Insight:** The "Dress" category acts as the financial backbone of the portfolio, while "Jackets" are instrumental in elevating the overall AOV.
 
-### 💰 3.1 Biên lợi nhuận theo danh mục
+### 3.2 Pricing Efficiency (AUP vs AUC)
+| Product Category | Avg Unit Price (AUP) | GPM     | Strategic Assessment                          |
+| ---------------- | -------------------- | ------- | --------------------------------------------- |
+| Denim Jacket     | ~1,210,000 VND       | ~71.74% | Premium pricing offset by high production cost|
+| Kids T-Shirt     | ~278,000 VND         | ~74.80% | Excellent cost optimization                   |
+| Men’s Clothing   | -                    | ~70.37% | Lowest efficiency in the portfolio            |
 
-#### 🔥 Nhóm siêu lợi nhuận (High Margin)
+**Executive Insight:** Premium pricing does not guarantee optimal profitability. Strict cost control (AUC) remains the definitive factor for margin expansion.
 
-| Sản phẩm            | GPM     |
-| ------------------- | ------- |
-| T-Shirt             | ~76,67% |
-| Promotional T-Shirt | ~76,2%  |
-| Women’s T-Shirt     | ~76,7%  |
-| Mommy & Me Dress    | ~74,6%  |
+### 3.3 Operations & Logistics
 
-👉 **Insight:**
+#### Order Cancellation Analysis
+- **Peak Cancellation Rate:** 21.82% (April 2023)
+- **Root Cause Hypothesis:** Inventory discrepancies, sluggish order processing times, and suboptimal customer experience.
 
-* Sản phẩm basic → chi phí thấp → scale tốt
-* Là “cash cow” của doanh nghiệp
+#### Fulfillment Service Level Agreement (SLA)
+| Platform | Average Delivery Time |
+| -------- | --------------------- |
+| Shopee   | 1.0 – 1.5 Days        |
+| Lazada   | > 2.3 Days            |
 
----
+*(Note: Lazada deliveries placed on Saturdays average 3.34 days)*
 
-#### 🏆 Nhóm đóng góp lợi nhuận lớn (Profit Drivers)
+**Executive Insight:** Significant operational bottlenecks occur during weekend fulfillment cycles, particularly on Lazada.
 
-| Sản phẩm        | Doanh thu | Lợi nhuận |
-| --------------- | --------- | --------- |
-| Dress           | >575 tỷ   | ~420 tỷ   |
-| Jacket & Blazer | -         | ~3,4 tỷ   |
+### 3.4 Consumer Behavior Analysis
+- **Peak Purchasing Days:** Monday (Shopee) and Friday (Lazada).
+- **Lowest Purchasing Day:** Saturday across both platforms.
 
-👉 **Insight:**
-
-* Dress = backbone tài chính
-* Jacket giúp kéo AOV
-
----
-
-### ⚖️ 3.2 Hiệu quả định giá (AUP vs AUC)
-
-| Sản phẩm       | AUP    | GPM     | Nhận định              |
-| -------------- | ------ | ------- | ---------------------- |
-| Denim Jacket   | ~1,21M | ~71,74% | Giá cao nhưng cost cao |
-| Kids T-Shirt   | ~278K  | ~74,8%  | Cost tối ưu rất tốt    |
-| Men’s Clothing | -      | ~70,37% | Hiệu quả thấp nhất     |
-
-👉 **Insight:**
-
-* Không phải sản phẩm giá cao là hiệu quả cao
-* Cost control là yếu tố quyết định
+**Executive Insight:** Consumer purchasing behavior is highly platform-dependent. Weekends represent a vulnerability in the current sales cycle.
 
 ---
 
-### 🚚 3.3 Vận hành & Logistics
+## 4. Strategic Recommendations
 
-#### ❗ Tỷ lệ hủy đơn
+### 4.1 Product & Pricing Strategy
+- **Aggressive Scaling:** Leverage advertising and bundling strategies for T-Shirts to maximize the high-margin segment.
+- **AOV Enhancement:** Implement cross-selling bundles combining basic items with premium categories.
+- **Portfolio Restructuring (Men’s Clothing):** Re-negotiate supplier costs or adjust retail pricing to improve margins.
+- **Market Penetration:** Expand the Kids segment given its strong cost efficiency.
 
-* Đỉnh điểm: **21,82% (04/2023)**
+### 4.2 Operations & Logistics Optimization
+- **Weekend Fulfillment:** Restructure Lazada weekend operations to eliminate processing bottlenecks.
+- **SLA Implementation:** Enforce a strict delivery SLA of under 2 days across all partners.
+- **Technology Integration:** Deploy a Real-time Inventory Management System to minimize stock-outs and reduce cancellation rates.
 
-👉 Nguyên nhân tiềm năng:
+### 4.3 Marketing & Promotional Strategy
+| Platform | Recommended Strategy             |
+| -------- | -------------------------------- |
+| Shopee   | Monday Flash Sales               |
+| Lazada   | Friday Mega Campaigns            |
+| Weekend  | Exclusive Saturday-only Deals    |
 
-* Sai lệch tồn kho
-* Xử lý đơn hàng chậm
-* Trải nghiệm khách hàng kém
-
----
-
-#### ⏱️ Thời gian giao hàng
-
-| Nền tảng | Thời gian      |
-| -------- | -------------- |
-| Shopee   | 1,0 – 1,5 ngày |
-| Lazada   | >2,3 ngày      |
-
-⚠️ Thứ Bảy (Lazada): **3,34 ngày**
-
-👉 **Insight:** Bottleneck vận hành cuối tuần
-
----
-
-### 🛒 3.4 Hành vi mua sắm
-
-| Nền tảng | Ngày cao điểm |
-| -------- | ------------- |
-| Shopee   | Thứ Hai       |
-| Lazada   | Thứ Sáu       |
-
-* Thấp nhất: Thứ Bảy
-
-👉 **Insight:**
-
-* Hành vi mua phụ thuộc nền tảng
-* Cuối tuần = điểm yếu hệ thống
+### 4.4 Revenue Recovery Initiatives
+- Deploy targeted remarketing campaigns for existing customer bases.
+- Execute voucher-based retargeting to re-engage dormant users.
+- Accelerate penetration into emerging markets (e.g., Japan, India) to diversify revenue streams.
 
 ---
 
-## 💡 4. Đề xuất chiến lược
+## 5. Conclusion
 
-### 🧠 4.1 Sản phẩm & định giá
+### 5.1 Critical Challenges
+- Substantial revenue contraction identified in 2023.
+- Elevated order cancellation rates eroding profitability.
+- Significant logistics bottlenecks, particularly on Lazada during weekends.
 
-* Scale mạnh T-Shirt (ads + bundle)
-* Bundle với sản phẩm giá cao → tăng AOV
-* Tối ưu Men’s Clothing:
+### 5.2 Strategic Opportunities
+- High Gross Profit Margins maintained across multiple core product categories.
+- Established scalable infrastructure capable of supporting large volumes.
+- Clear, platform-specific consumer behavioral patterns allowing for targeted optimization.
 
-  * Đàm phán giảm cost
-  * Điều chỉnh giá bán
-* Mở rộng Kids segment
-
----
-
-### ⚙️ 4.2 Vận hành
-
-* Tối ưu Lazada cuối tuần
-* SLA giao hàng < 2 ngày
-* Áp dụng **Real-time Inventory System**
-
----
-
-### 📣 4.3 Marketing
-
-| Nền tảng | Chiến lược          |
-| -------- | ------------------- |
-| Shopee   | Flash Sale Thứ Hai  |
-| Lazada   | Campaign Thứ Sáu    |
-| Weekend  | Saturday-only deals |
-
----
-
-### 📉 4.4 Phục hồi tăng trưởng
-
-* Remarketing khách cũ
-* Retargeting bằng voucher
-* Mở rộng thị trường mới
-
----
-
-## 🧭 5. Kết luận
-
-### 🔴 Vấn đề chính
-
-* Doanh thu giảm mạnh 2023
-* Tỷ lệ hủy đơn cao
-* Bottleneck vận hành Lazada
-
-### 🟢 Cơ hội
-
-* Biên lợi nhuận cao ở nhiều sản phẩm
-* Hệ thống đã có scale lớn
-* Hành vi khách hàng rõ ràng → dễ tối ưu
-
-👉 **Định hướng chiến lược:**
-
-1. Tối ưu danh mục sản phẩm
-2. Nâng cấp vận hành logistics
-3. Cá nhân hóa marketing
-4. Giảm phụ thuộc thị trường
-
----
+### 5.3 Strategic Directives
+1. **Optimize Product Portfolio:** Prioritize high-margin and high-contribution categories.
+2. **Upgrade Logistics Operations:** Resolve fulfillment bottlenecks and implement real-time inventory tracking.
+3. **Personalize Marketing Efforts:** Align promotional campaigns with platform-specific consumer behavior.
+4. **Mitigate Market Dependency:** Diversify geographical revenue streams to reduce reliance on core markets.
